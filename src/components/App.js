@@ -77,6 +77,7 @@ const App = () => {
       <div style={headerStyle}>
         <h1>Blue Whales</h1>
         <button
+          className="btn"
           style={buttonStyle}
           onClick={() => setClicked(true)}
           onMouseOver={(e) => (e.target.style.backgroundColor = "#218838")}
