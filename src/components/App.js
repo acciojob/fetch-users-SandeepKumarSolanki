@@ -115,7 +115,7 @@ const App = () => {
             ) : (
               <tr>
                 <td style={tdStyle} colSpan="4">
-                  No Data found to Display
+                No data found
                 </td>
               </tr>
             )}
